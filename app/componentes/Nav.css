@@ -1,0 +1,16 @@
+.nav {
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+.nav-lista {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    background-color: var(--celeste);
+    flex-grow: 1;
+    padding: 8px 0;
+    text-align: center;
+}
