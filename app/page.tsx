@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.center}>
        <div>
-         <img src="pacman.jpg" alt="" srcset="" />
+         <img src="pacman.jpg" alt="" />
        </div>
       </div>
     </main>
