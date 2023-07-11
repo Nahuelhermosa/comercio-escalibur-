@@ -2,6 +2,7 @@
   --negro: #000;
   --blanco: #FFF;
   --celeste: skyblue;
+  --amarillo: #f1e106;
 }
 
 * {
@@ -11,5 +12,5 @@
 }
 
 body {
-  background: rgb(11, 29, 192);
+  background: var(--blanco)
 }

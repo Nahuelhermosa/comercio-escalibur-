@@ -1,6 +1,10 @@
 
+
 export default function Servicios () {
     return (
-        <h1>estas en servicios</h1>
+       <div>
+        <h1>stock</h1>
+       
+       </div>
     )
 }

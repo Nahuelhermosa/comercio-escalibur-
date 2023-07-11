@@ -9,8 +9,8 @@
 }
 
 .nav-item {
-    background-color: var(--celeste);
+    background-color: var(--amarillo);
     flex-grow: 1;
-    padding: 8px 0;
+    padding: 10px 0;
     text-align: center;
 }
