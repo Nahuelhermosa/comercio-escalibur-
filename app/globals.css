@@ -14,3 +14,11 @@
 body {
   background: var(--blanco)
 }
+
+.contenedor {
+  max-width: 1000px;
+  margin: 5px auto;
+} 
+.logo {
+  max-width: 70%;
+}

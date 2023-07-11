@@ -10,8 +10,12 @@ export default function Nav () {
                     <Link href='./'>Inicio</Link>
                 </li>
                 <li className='nav-item'>
+                    <Link href='/Indumentaria'>Indumentaria</Link>
+                </li>
+                <li className='nav-item'>
                     <Link href='/servicio'>Servicio</Link>
                 </li>
+              
                 <li className='nav-item'>
                     <Link href='/contacto'>Contacto</Link>
                 </li>
