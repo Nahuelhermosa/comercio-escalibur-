@@ -3,6 +3,7 @@
   --blanco: #FFF;
   --celeste: skyblue;
   --amarillo: #f1e106;
+  --gris: #a9acab;
 }
 
 * {
@@ -13,12 +14,10 @@
 
 body {
   background: var(--blanco)
+  
 }
 
 .contenedor {
   max-width: 1000px;
   margin: 5px auto;
 } 
-.logo {
-  max-width: 70%;
-}

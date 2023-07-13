@@ -1,0 +1,31 @@
+.card {
+    /* temporal */
+    max-width: 300px;
+    margin: 40px auto;
+
+    color: var(--negro);
+    border-radius: 8px;
+    border: 1px solid var(--gris-oscuro);
+    text-align: left;
+}
+.card img {
+    border-radius: 8px 8px 0 0;
+}
+.card-info {
+    padding: 8px 16px 24px;
+}
+.descripcion {
+    color: var(--gris-oscuro);
+    margin-bottom: 8px;
+}
+.precio {
+    font-weight: bold;
+    color: var(--negro);
+    margin-bottom: 8px;
+}
+.envio {
+    background-color: var(--rosa);
+    padding: 4px 8px;
+    border-radius: 20px;
+    display: inline-block;
+}

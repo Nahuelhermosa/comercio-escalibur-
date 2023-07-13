@@ -5,10 +5,10 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.center}>
-       <div className="logo">
-         <img src="lombor y remera old school.jpg" alt="<inicio/>" />
-       </div>
+       
+       <img src="logo.1.jpg" width={1000} alt="<Home/>" />
       </div>
+     
     </main>
   )
 }

@@ -7,7 +7,7 @@ export default function Nav () {
         <nav className='nav'>
             <ul className='nav-lista'>
                 <li className='nav-item'>
-                    <Link href='./'>Inicio</Link>
+                    <Link href='./'>Home</Link>
                 </li>
                 <li className='nav-item'>
                     <Link href='/Indumentaria'>Indumentaria</Link>
