@@ -3,7 +3,8 @@ import './contacto.css'
 export default function Contacto () {
     return (
         <>
-            <h1>Estás en contacto</h1>
+            <h1>Contactos</h1>
+            <h2>ante cualquier duda podran su consulta sera respondida a la brebedad muchas gracias</h2>
 
             <form action="" method="" className='formulario'>
                 <label>
