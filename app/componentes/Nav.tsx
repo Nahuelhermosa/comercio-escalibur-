@@ -5,10 +5,11 @@ import './Nav.css';
 export default function Nav () {
     return (
         <nav className='nav'>
+        
             <ul className='nav-lista'>
               
                 <li className='nav-item'>
-                    <Link href='./'>EXCALIBUR</Link>
+                    <Link href='./'><img src="logoamarillo.png" width={70} alt="inicio" /></Link>
                 </li>
                 <li className='nav-item'>
                     <Link href='/servicio'>Servicio</Link>
@@ -19,6 +20,7 @@ export default function Nav () {
                 <li className='nav-item'>
                     <Link href='/contacto'>Contacto</Link>
                 </li>
+                
             </ul>
         </nav>
     )

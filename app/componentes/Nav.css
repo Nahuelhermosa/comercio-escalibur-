@@ -1,16 +1,18 @@
 .nav {
     max-width: 100%;
-    margin: 20px auto;
+    margin: 0px auto;
+    padding-bottom: 30px;
 }
 
 .nav-lista {
     display: flex;
+    
     list-style: none;
 }
 
 .nav-item {
     background-color: var(--amarillo);
     flex-grow: 1;
-    padding: 10px 0;
+    padding: 30px 30px;
     text-align: center;
 }
