@@ -1,5 +1,13 @@
 
 .producto {
-    max-width: 1000px;
-    margin: 20px auto;
-  }
+  max-width: 1000px;
+  margin: 20px auto;
+}
+.producto-title {
+  text-align: center;
+  font-size: 600%;
+}
+
+.producto-contenedor p {
+  font-size: 25px;
+}

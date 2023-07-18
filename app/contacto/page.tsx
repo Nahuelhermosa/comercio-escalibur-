@@ -7,7 +7,7 @@ export default function Contacto () {
             <h1>Contactos</h1>
             <br />
             <h2>ante cualquier duda podran su consulta sera respondida a la brebedad muchas gracias</h2>
-
+            <br />
             <form action="" method="" className='formulario'>
                 <label>
                     Nombre:
