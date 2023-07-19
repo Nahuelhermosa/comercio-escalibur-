@@ -1,14 +1,16 @@
 
 import './indumentaria.css'
-//import Card from './Card';
+
+import Card from '../componentes/Card/Card'
+
 
 export default function Indumentaria() {
     return (
       <div className="producto">
-      
+        <Card />
         <h1>stock</h1>
         <br />
-
+      
 
       <div className='grillas'>
         <div className="card">

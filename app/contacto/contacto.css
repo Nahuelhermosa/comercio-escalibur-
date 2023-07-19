@@ -1,16 +1,25 @@
 .producto {
-    max-width: 1000px;
-    margin: 20px auto;
-    justify-content: center; 
-    align-items: center;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 200%; /* Centra el contenido verticalmente */
 }
 
 .formulario {
-    
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola línea */
+  justify-content: center; /* Centra los elementos horizontalmente */
+  width: 1000px; /* El formulario ocupará todo el ancho disponible */
+  max-width: 1000px; /* Establece el ancho máximo del formulario en 1000px */
+}
+
+.formulario label,
+.formulario input,
+.formulario textarea,
+.formulario input[type="submit"] {
  
-  
-  width: 100%; /* El formulario ocupará todo el ancho disponible */
-  max-width: 500px;
+  max-width: 1000px; /* Puedes ajustar este valor según tus necesidades */
+  margin: 5px;
 }
