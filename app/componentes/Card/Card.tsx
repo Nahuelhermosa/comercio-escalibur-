@@ -1,15 +1,7 @@
 import './Card.css'
 
-export default function Card () {
-  const producto = {
+export default function Card ({producto}) {
 
-    imagen: 'pacman.jpg',
-    titulo: 'remera',
-    descripcion: 'remera 100% algodon',
-    precio: 15000,
-    envio: true
-
-}
     return (
 
         <div className='grillas'>

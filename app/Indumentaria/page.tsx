@@ -1,7 +1,7 @@
 
-import './indumentaria.css'
+//import './indumentaria.css'
 
-import Card from '../componentes/Card/Card'
+//import Card from '../componentes/Card/Card'
 import CardWrapper from '../componentes/CardWrapper';
 
 export default function Indumentaria() {
@@ -10,7 +10,7 @@ export default function Indumentaria() {
       <CardWrapper/>
         <h1>stock</h1>
         <br />
-       <Card />
+      
         <br />
       <div className='grillas'>
         <div className="card">
