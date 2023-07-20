@@ -2,16 +2,16 @@
 import './indumentaria.css'
 
 import Card from '../componentes/Card/Card'
-
+import CardWrapper from '../componentes/CardWrapper';
 
 export default function Indumentaria() {
     return (
       <div className="producto">
-        <Card />
+      <CardWrapper/>
         <h1>stock</h1>
         <br />
-      
-
+       <Card />
+        <br />
       <div className='grillas'>
         <div className="card">
           <img src="pacman.jpg" width={300} alt="Descripción de la imagen" />
