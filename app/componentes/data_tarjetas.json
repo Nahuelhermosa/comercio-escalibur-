@@ -1,6 +1,7 @@
 [
    
     {
+        "id":1,
         "imagen": "nirvana.jpg",
         "titulo": "Combo Style",
         "descripcion": "Remera, camisa, cinturon y pantalon",
@@ -8,6 +9,7 @@
         "envio": true
     },
     {
+        "id":2,
         "imagen": "lombor.jpg",
         "titulo": "Lombor RollStrike",
         "descripcion": "Lombor RollStrike con rulemanes Stark",
@@ -15,6 +17,7 @@
         "envio": true
     },
     {
+        "id":3,
         "imagen": "remera negra.jpg",
         "titulo": "remera",
         "descripcion": "remera 100% algodon",
@@ -22,6 +25,7 @@
         "envio": false
     },
     {
+        "id":4,
         "imagen": "pacman.jpg",
         "titulo": "remera",
         "descripcion": "remera 100% algodon",

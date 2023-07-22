@@ -8,7 +8,7 @@ export default function Home() {
     <main className='main'>
       <div className='cente'>
         <div className='producto'>
-          <img src="logo.1.jpg" width={950} alt="<Home/>" />
+          <img src="logo.1.jpg" width={550} alt="<Home/>" />
           
         </div>
       </div>
