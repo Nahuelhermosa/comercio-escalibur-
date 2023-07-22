@@ -1,34 +1,31 @@
 [
+   
     {
-        "id": 1,
-        "imagen": "pacman.jpg",
-        "titulo": "Fotos de gatitos",
-        "descripcion": "Descripción de las fotos de Chipannoli",
-        "precio": 342,
+        "imagen": "nirvana.jpg",
+        "titulo": "Combo Style",
+        "descripcion": "Remera, camisa, cinturon y pantalon",
+        "precio": 45000,
         "envio": true
     },
     {
-        "id": 2,
-        "imagen": "images/gatitos.jpg",
-        "titulo": "Producción de fotografía",
-        "descripcion": "Solo fotografiamos perritos",
-        "precio": 6342,
+        "imagen": "lombor.jpg",
+        "titulo": "Lombor RollStrike",
+        "descripcion": "Lombor RollStrike con rulemanes Stark",
+        "precio": 35000,
+        "envio": true
+    },
+    {
+        "imagen": "remera negra.jpg",
+        "titulo": "remera",
+        "descripcion": "remera 100% algodon",
+        "precio": 5000,
         "envio": false
     },
     {
-        "id": 3,
-        "imagen": "images/gatitos.jpg",
-        "titulo": "Venta de celular",
-        "descripcion": "Galaxy Z-flip casi sin uso",
-        "precio": 9234,
-        "envio": true
-    },
-    {
-        "id": 4,
-        "imagen": "images/gatitos.jpg",
-        "titulo": "Heladera",
-        "descripcion": "Da frio a tu comida",
-        "precio": 69202,
+        "imagen": "pacman.jpg",
+        "titulo": "remera",
+        "descripcion": "remera 100% algodon",
+        "precio": 5000,
         "envio": false
     }
 ]
