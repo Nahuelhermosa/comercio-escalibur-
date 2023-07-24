@@ -20,10 +20,7 @@ export default function Nav() {
           <li className="nav-item">
             <Link href="/contacto">Contacto</Link>
           </li>
-          <li className="nav-item">
-            <Link href="/Carrito">Carrito</Link>
-          </li>
-
+       
           <li className="nav-item">
             <form action="#">
               <input type="text" />

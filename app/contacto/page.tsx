@@ -22,7 +22,7 @@ export default function Contacto () {
                     <textarea></textarea>
                 </label>
 
-                <input type="submit" value="Enviar" />
+                <input type="submit" value="Enviar"/>
             </form>
             
             </div>
