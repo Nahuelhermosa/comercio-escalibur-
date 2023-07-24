@@ -8,21 +8,28 @@ export default function Contacto () {
             <br />
             <h2>ante cualquier duda podran su consulta sera respondida a la brebedad muchas gracias</h2>
             <br />
-            <form action="" method="" className='formulario'>
+
+            <form name="contacto" data-netlify="true" netlify-honeypot="bot-field" hidden> 
+            <input type="text" name='nombre' />
+            <input type="email" name='email' />
+            <textarea name="comentario" ></textarea>
+            </form>
+
+            <form method='post' className='formulario'>
                 <label>
                     Nombre:
-                    <input type="text" />
+                    <input type="text" name='nombre' />
                 </label>
                 <label>
                     Mail:
-                    <input type="email" />
+                    <input type="email" name='email' />
                 </label>
                 <label>
                     Comentarios:
-                    <textarea></textarea>
+                    <textarea name="comentario" ></textarea>
                 </label>
-
-                <input type="submit" value="Enviar"/>
+                <input type="hidden" name="form-name" value="contacto" />
+                <button type="submit">Enviar</button>
             </form>
             
             </div>
