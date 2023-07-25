@@ -24,5 +24,6 @@
   
   /* Asegúrate de ajustar el margen según tus necesidades */
   h2 {
-    font-size: 40px; /* Puedes ajustar el tamaño de fuente según tus necesidades */
+    font-size: 35px; /* Puedes ajustar el tamaño de fuente según tus necesidades */
+    margin-bottom: 20px;
   }

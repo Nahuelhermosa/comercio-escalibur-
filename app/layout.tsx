@@ -20,11 +20,11 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={inter.className}>
+        <Nav/>
         <div className='contenedor'>
-        <Nav/> 
         {children}
-        <Footer/>
         </div>
+        <Footer/>
         </body>
     </html>
   )
