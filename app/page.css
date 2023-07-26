@@ -4,16 +4,23 @@
   
   .principal {
     width: 100%; /* Ajusta el ancho del contenedor principal */
-    overflow: hidden; /* Para que el contenedor se ajuste al tamaño de su contenido */
+    overflow: hidden;
+    margin-bottom: 30px; /* Para que el contenedor se ajuste al tamaño de su contenido */
   }
   
   img {
+    
+    max-width: 45%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
+    height: auto; /* Asegura que la altura se ajuste automáticamente proporcionalmente al ancho */
+    display: block; /* Elimina espacios no deseados debajo de las imágenes */
+    margin: 0 auto; /* Centra las imágenes horizontalmente dentro de su contenedor */
     float: left; /* Coloca la imagen a la izquierda */
-    /* Añade más estilos a la imagen si es necesario */
+     /* Añade más estilos a la imagen si es necesario */
   }
   
   .pokemon-container-row {
-    display: flex; /* Utilizamos flexbox para que los Pokémon estén en una fila */
+    display: flex;
+    margin-bottom: 30px; /* Utilizamos flexbox para que los Pokémon estén en una fila */
   }
   
   .pokemon-container-row > * {
@@ -24,6 +31,7 @@
   
   /* Asegúrate de ajustar el margen según tus necesidades */
   h2 {
-    font-size: 35px; /* Puedes ajustar el tamaño de fuente según tus necesidades */
-    margin-bottom: 20px;
+    font-size: 33px; /* Puedes ajustar el tamaño de fuente según tus necesidades */
+    margin-bottom: 30px;
+    margin-top: 30px;
   }

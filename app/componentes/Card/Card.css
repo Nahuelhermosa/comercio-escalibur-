@@ -7,7 +7,11 @@
     border: 1px solid var(--negro);
     text-align: left;
 }
-
+img {
+    max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
+   
+  }
+  
 .card-info {
     padding: 8px 16px;
 }

@@ -9,8 +9,8 @@ export default function Servicios () {
             <p>Bien venidos a Escalibur "el calaboso del nerd" somos una tienda que se centra en el diseño y venta de ropa para hombre, mujeres, niñas y niño, presentando un gran impacto visual, con ideas alternativas dedicado a la cultura pop, anime, manga y sus variantes.
                  </p>
             <br />
-            <img src="lombor.jpg" width={500} alt="indumetaria" />
-            <img src="nirvana.jpg" width={500} alt="indumentaria" />
+            <img src="lombor.jpg" alt="indumetaria" />
+            <img src="nirvana.jpg" alt="indumentaria" />
                 </div>
         </div>
     )

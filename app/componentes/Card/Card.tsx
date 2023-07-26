@@ -13,7 +13,7 @@ export default function Card({ producto }: { producto: Producto }) {
   return (
     <div className='grillas'>
       <div className="card">
-        <img src={producto.imagen} width={290} alt="" />
+        <img src={producto.imagen} alt="" />
         <div className="card-content">
           <h2>{producto.titulo}</h2>
           <p>{producto.descripcion}</p>
