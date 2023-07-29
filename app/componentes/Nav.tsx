@@ -7,20 +7,23 @@ export default function Nav() {
       <nav className="nav">
         <ul className="nav-lista">
           <li className="nav-item">
-            <Link href="./">
-              <img src="logoamarillo.png" width={70} alt="inicio" />
+            <Link href="/">
+              <img src="logoamarillo.png" alt="inicio" />
             </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/servicio">Servicio</Link>
           </li>
           <li className="nav-item">
             <Link href="/Indumentaria">Indumentaria</Link>
           </li>
           <li className="nav-item">
+            <Link href="/servicio">Servicio</Link>
+          </li>
+          
+          <li className="nav-item">
             <Link href="/contacto">Contacto</Link>
           </li>
-       
+          <li className="nav-item">
+            <Link href="/Carrito">Carrito</Link>
+          </li>
           <li className="nav-item">
             <form action="#">
               <input type="text" />

@@ -3,7 +3,7 @@ import './contacto.css'
 export default function Contacto () {
     return (
         <>
-        <div className='producto'>
+        <div className='contacto'>
             <h1>Contactos</h1>
             <br />
             <h2>Ante cualquier duda su consulta sera respondida a la brebedad muchas gracias.</h2>

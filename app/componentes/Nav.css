@@ -1,34 +1,41 @@
+/* Nav.css */
+
 .nav {
-    max-width: 100%;
-    margin: 0px auto;
-    padding-bottom: 10px;
-  }
-  
-  .nav-lista {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center; 
-    list-style: none;
-    text-align: justify;
-    font-size: 150%;
-    background-color: var(--amarillo);
-  }
-  
-  .nav-item {
-    background-color: var(--amarillo);
-    flex-grow: 1;
-    padding: 5px 0px 5px 0px;
-    text-align: center;
-    font-size: 1.2em;
-  }
-  
-  .nav-item a {
-    text-decoration: none; /* Esto quita el subrayado del enlace dentro del elemento li */
-    color: #333; /* Cambia el color del texto del enlace */
-  }
-  
-  .nav-item a:hover {
-    text-decoration: underline; /* Agrega subrayado cuando el enlace se encuentra en hover */
-  }
-  
+  max-width: 100%;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.nav-lista {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  text-align: justify;
+  font-size: 150%;
+  background-color: var(--amarillo);
+}
+
+.nav-item {
+  background-color: var(--amarillo);
+  flex-grow: 1;
+  padding: 5px 0px 5px 0px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-item a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el logo */
+.nav-item img {
+  max-width: 100px; /* Ajusta el tamaño deseado para el logo */
+  height: auto; /* Asegura que la altura se ajuste automáticamente proporcionalmente al ancho */
+}
 

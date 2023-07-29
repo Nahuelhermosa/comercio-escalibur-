@@ -1,14 +1,14 @@
 .card {
     /* temporal */
-    max-width: 300px;
+    max-width: 400px;
     margin: 40px auto;
     color: var(--negro);
     border-radius: 8px;
     border: 1px solid var(--negro);
     text-align: left;
 }
-img {
-    max-width: 100%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
+.imagen-producto-venta {
+    max-width: 300px; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
    
   }
   

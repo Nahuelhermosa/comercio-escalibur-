@@ -1,17 +1,18 @@
 
-.producto {
+.servicio {
   max-width: 1000px;
   margin: 20px auto;
 }
-.producto-title {
+.servicio-title {
   text-align: center;
   font-size: 300%;
 }
 
-.producto-contenedor p {
+.servicio-contenedor p {
   font-size: 25px;
 }
-img {
-  max-width: 50%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
+.imagen-servicio {
+  max-width: 500px; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
   /* Centra las imágenes horizontalmente dentro de su contenedor */
+  margin-bottom: 20px;
 }
