@@ -1,16 +1,8 @@
 [
    
+   
     {
         "id":1,
-        "categoria": "Combo Style",
-        "imagen": "nirvana.jpg",
-        "titulo": "Combo Style",
-        "descripcion": "Remera, camisa, cinturon y pantalon",
-        "precio": 45000,
-        "envio": true
-    },
-    {
-        "id":2,
         "categoria": "lombor",
         "imagen": "lombor.jpg",
         "titulo": "Lombor RollStrike",
@@ -19,7 +11,7 @@
         "envio": true
     },
     {
-        "id":3,
+        "id":2,
         "categoria": "remera",
         "imagen": "remera negra.jpg",
         "titulo": "remera",
@@ -28,12 +20,50 @@
         "envio": false
     },
     {
-        "id":4,
+        "id":3,
         "categoria":"remera",
         "imagen": "pacman.jpg",
         "titulo": "remera",
         "descripcion": "remera 100% algodon",
         "precio": 5000,
         "envio": false
+    },
+   
+    {
+        "id":4,
+        "categoria":"consola",
+        "imagen": "comboplay.jpg",
+        "titulo": "play 4 con dos joystick y visor 3HD",
+        "descripcion": "Mega Combo",
+        "precio": 80000,
+        "envio": true
+    },
+    {
+        "id":6,
+        "categoria":"consola",
+        "imagen": "atari.jpg",
+        "titulo": "atari",
+        "descripcion": "atari",
+        "precio": 60000,
+        "envio": true
+    },
+  
+    {
+        "id":7,
+        "categoria":"consola",
+        "imagen": "gameboyrojo.jpg",
+        "titulo": "gameboy",
+        "descripcion": "Super gameboy Red ",
+        "precio":15000,
+        "envio": false
+    },
+    {
+        "id":5,
+        "categoria":"consola",
+        "imagen": "nintendo.jpg",
+        "titulo": "nintendo",
+        "descripcion": "supernintendo",
+        "precio": 45000,
+        "envio": true
     }
 ]

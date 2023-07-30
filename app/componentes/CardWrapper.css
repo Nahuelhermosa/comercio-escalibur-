@@ -3,6 +3,10 @@
     align-items: center;
     
 }
+.titulowrapper {
+    text-align: center;
+    
+}
 .grilla {
     display: grid;
     grid-template-columns: repeat(4, 1fr);

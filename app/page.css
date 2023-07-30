@@ -3,14 +3,14 @@
   }
   
   .principal {
-    width: 100%; /* Ajusta el ancho del contenedor principal */
+    width: 1300px; /* Ajusta el ancho del contenedor principal */
     overflow: hidden;
     margin-bottom: 30px; /* Para que el contenedor se ajuste al tamaño de su contenido */
   }
   
   img {
     
-    max-width: 40%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
+    max-width: 450px; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
     height: auto; /* Asegura que la altura se ajuste automáticamente proporcionalmente al ancho */
     display: block; /* Elimina espacios no deseados debajo de las imágenes */
     margin: 0 auto; /* Centra las imágenes horizontalmente dentro de su contenedor */

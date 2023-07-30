@@ -8,7 +8,7 @@ export default function Nav() {
         <ul className="nav-lista">
           <li className="nav-item">
             <Link href="/">
-              <img src="logoamarillo.png" alt="inicio" />
+              <img src="pirataazul.png" alt="inicio" />
             </Link>
           </li>
           <li className="nav-item">
