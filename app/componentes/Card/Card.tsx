@@ -1,3 +1,4 @@
+import contador from "./contador"
 import './Card.css';
 
 // Define la interfaz para el tipo de datos de 'producto'
@@ -22,6 +23,9 @@ export default function Card({ producto }: { producto: Producto }) {
             {producto.envio &&
               <p className='envio'>Envío gratis</p>
             }
+          </div>
+          <div>
+            <contador/>
           </div>
         </div>
       </div>
