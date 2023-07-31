@@ -1,5 +1,7 @@
-import contador from "./contador"
+//import { useState } from "react";
+//import contador from "./contador"
 import './Card.css';
+
 
 // Define la interfaz para el tipo de datos de 'producto'
 interface Producto {
@@ -20,12 +22,18 @@ export default function Card({ producto }: { producto: Producto }) {
           <p>{producto.descripcion}</p>
           <div className="card-info-detalles">
             <p className='precio'>${producto.precio}</p>
+            <div>
+            <p>Precio unitario: ${producto.precio}</p>
+            
+            {/* Cuarto paso: Mostrar el total */}
+            <p>Total: ${ producto.precio}</p>
+        </div>
             {producto.envio &&
               <p className='envio'>Envío gratis</p>
             }
           </div>
           <div>
-            <contador/>
+          
           </div>
         </div>
       </div>

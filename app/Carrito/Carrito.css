@@ -1,0 +1,38 @@
+.sorteo {
+    max-width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 100%; /* Centra el contenido verticalmente */
+  }
+  .titulosorteo{
+    color: var(--amarillo);
+    text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
+    font-size: 80px;
+    font-weight: bold;
+  }
+  .titulosorteo2 {
+    color: var(--amarillo);
+    text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .formulario {
+    display: flex;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan si no caben en una sola línea */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    width: 1000px; /* El formulario ocupará todo el ancho disponible */
+    max-width: 1000px; /* Establece el ancho máximo del formulario en 1000px */
+  }
+  
+  .formulario label,
+  .formulario input,
+  .formulario textarea,
+  .formulario input[type="submit"] {
+   
+    max-width: 1000px; /* Puedes ajustar este valor según tus necesidades */
+    margin: 5px;
+  }
+  

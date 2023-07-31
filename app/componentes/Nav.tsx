@@ -22,7 +22,7 @@ export default function Nav() {
             <Link href="/contacto">Contacto</Link>
           </li>
           <li className="nav-item">
-            <Link href="/Carrito">Carrito</Link>
+            <Link href="/Carrito">Sorteos y Premios</Link>
           </li>
           <li className="nav-item">
             <form action="#">

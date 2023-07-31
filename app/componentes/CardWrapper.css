@@ -5,10 +5,22 @@
 }
 .titulowrapper {
     text-align: center;
+    color: var(--amarillo);
+    text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
+    font-size: 40px;
+    font-weight: bold;
     
 }
 .grilla {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
+}
+.filtro{
+    color: var(--amarillo);
+    text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 35px;
+    
 }

@@ -31,7 +31,14 @@
   
   /* Asegúrate de ajustar el margen según tus necesidades */
   h2 {
-    font-size: 34px; /* Puedes ajustar el tamaño de fuente según tus necesidades */
+    font-size: 30px; /* Puedes ajustar el tamaño de fuente según tus necesidades */
     margin-bottom: 30px;
     margin-top: 30px;
+  }
+  .info {
+    color: var(--amarillo);
+    text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
+    font-size: 30px;
+    font-weight: bold;
+    
   }

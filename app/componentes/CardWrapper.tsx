@@ -9,9 +9,9 @@ export default function CardWrapper () {
     const [ filtros, setfiltros] = useState("all");
     return (
          <div className="wrapper"> 
-         <h2 className="titulowrapper">Variedad de indumentaria</h2>
+         <h2 className="titulowrapper">Indumentaria Consolas y Accesorios</h2>
          <div className="grilla">
-            <div>
+            <div className="filtro">
                 <label>
                 <input type="radio" name="categoria" value="remera" onChange={()=>{
                     setfiltros("remera")
@@ -21,6 +21,16 @@ export default function CardWrapper () {
                 <input type="radio" name="categoria" value="lombor" onChange={()=>{
                     setfiltros("lombor")
                 }}/> lombor < br/>
+                </label>
+                <label >
+                <input type="radio" name="categoria" value="consola" onChange={()=>{
+                    setfiltros("consola")
+                }}/> consola < br/>
+                </label>
+                <label >
+                <input type="radio" name="categoria" value="consola" onChange={()=>{
+                    setfiltros("consola")
+                }}/> consola < br/>
                 </label>
                 <label >
                 <input type="radio" name="categoria" value="consola" onChange={()=>{
