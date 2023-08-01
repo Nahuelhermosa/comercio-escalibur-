@@ -16,12 +16,11 @@ export default function Nav() {
           <li className="nav-item">
             <Link href="/servicio">Servicio</Link>
           </li>
-          
-          <li className="nav-item">
-            <Link href="/contacto">Contacto</Link>
-          </li>
           <li className="nav-item">
             <Link href="/Sorteo">Sorteos y Premios</Link>
+          </li>
+          <li className="nav-item">
+            <Link href="/contacto">Contacto</Link>
           </li>
           <li className="nav-item">
             <form action="#">
