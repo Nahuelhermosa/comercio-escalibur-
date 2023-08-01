@@ -1,4 +1,6 @@
+"use client"
 import './sorteo.css'
+import Contador from '../componentes/Contador';
 export default function Carrito () {
 
     return (
@@ -24,15 +26,14 @@ export default function Carrito () {
                     Mail:
                     <input type="email" name='email' />
                 </label>
-                <label>
-                    Numero de factura con la fecha:
-                    <textarea name="comentario" ></textarea>
-                </label>
+               
+                <Contador />
                 <input type="hidden" name="form-name" value="contacto" />
                 <button type="submit">Enviar</button>
-            </form>
-            
+            </form> 
+           
             </div>
+          
         </>
     )
 }
