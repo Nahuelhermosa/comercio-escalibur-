@@ -1,13 +1,10 @@
-
 .servicio {
   max-width: 1000px;
   margin: 20px auto;
 }
+
 .servicio-title {
   text-align: center;
-
-
-  
   color: var(--amarillo);
   text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
   font-size: 30px;
@@ -17,8 +14,21 @@
 .servicio-contenedor p {
   font-size: 25px;
 }
+
 .imagen-servicio {
-  max-width: 500px; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
-  /* Centra las imágenes horizontalmente dentro de su contenedor */
+  max-width: 500px;
   margin-bottom: 20px;
+}
+
+.imagen-servicio:hover {
+  cursor: crosshair;
+  width: 450px;
+  opacity: 1;
+  filter: contrast(100%);
+  flex-grow: 1;
+  object-fit: cover;
+}
+.contenedor-imagenes{
+  max-width: 1000px;
+
 }

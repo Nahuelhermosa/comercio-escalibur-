@@ -6,7 +6,7 @@ export default function Contacto () {
         <div className='contacto'>
             <h1>Contactos</h1>
             <br />
-            <h2>Ante cualquier duda su consulta sera respondida a la brebedad muchas gracias.</h2>
+            <h2>Ante cualquier duda acerca de la garantia de las consolas y los accesorios deportivos seran respondida a la brebedad muchas gracias.</h2>
             <br />
 
             <form name="contacto" data-netlify="true" netlify-honeypot="bot-field" hidden> 

@@ -5,7 +5,7 @@
   .principal {
     width: 1300px; /* Ajusta el ancho del contenedor principal */
     overflow: hidden;
-    margin-bottom: 30px; /* Para que el contenedor se ajuste al tamaño de su contenido */
+    margin-bottom: 5px; /* Para que el contenedor se ajuste al tamaño de su contenido */
   }
   
   .imagen-container {
