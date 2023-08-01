@@ -1,35 +1,33 @@
 .main {
-    /* Estilos para el elemento main si es necesario */
   }
   
   .principal {
-    width: 1300px; /* Ajusta el ancho del contenedor principal */
+    width: 1300px;
     overflow: hidden;
-    margin-bottom: 5px; /* Para que el contenedor se ajuste al tamaño de su contenido */
+    margin-bottom: 5px;
   }
   
   .imagen-container {
     
-    max-width: 30%; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
-    height: auto; /* Asegura que la altura se ajuste automáticamente proporcionalmente al ancho */
-    display: block; /* Elimina espacios no deseados debajo de las imágenes */
-    margin: 15px 15px 0px 30px; /* Centra las imágenes horizontalmente dentro de su contenedor */
-    float: left; /* Coloca la imagen a la izquierda */
-     /* Añade más estilos a la imagen si es necesario */
+    max-width: 30%;
+    height: auto; 
+    display: block; 
+    margin: 15px 15px 0px 30px; 
+    float: left;
+    
   }
   
   .pokemon-container-row {
     display: flex;
-    margin-bottom: 30px; /* Utilizamos flexbox para que los Pokémon estén en una fila */
+    margin-bottom: 30px; 
   }
   
   .pokemon-container-row > * {
-    flex: 1; /* Hace que los Pokémon tengan el mismo ancho y se ajusten automáticamente */
-    margin: 5px; /* Ajusta el margen entre los Pokémon */
-    
+    flex: 1; 
+    margin: 5px; 
   }
   
-  /* Asegúrate de ajustar el margen según tus necesidades */
+ 
 
   
   .info {

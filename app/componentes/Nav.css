@@ -33,9 +33,9 @@
   text-decoration: underline;
 }
 
-/* Estilos para el logo */
+
 .nav-item img {
-  max-width: 100px; /* Ajusta el tamaño deseado para el logo */
-  height: auto; /* Asegura que la altura se ajuste automáticamente proporcionalmente al ancho */
+  max-width: 100px; 
+  height: auto; 
 }
 

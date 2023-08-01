@@ -1,5 +1,5 @@
 .card {
-    /* temporal */
+ 
     max-width: 400px;
     margin: 40px auto;
     color: var(--negro);
@@ -8,8 +8,7 @@
     text-align: left;
 }
 .imagen-producto-venta {
-    max-width: 300px; /* Ajusta el ancho máximo de la imagen al ancho del contenedor que la contiene */
-   
+    max-width: 300px; 
   }
   
 .card-info {

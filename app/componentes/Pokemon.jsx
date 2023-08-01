@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 export default function Pokemon () {
   const [loading, setLoading] = useState(true);
   const [pokemon, setPokemon] = useState ({});
-// los hooks siempre antes del return 
+
   useEffect(() => {
     function getRandomIntInclusive(min, max) {
       min = Math.ceil(min);
@@ -14,12 +14,10 @@ export default function Pokemon () {
   const random = getRandomIntInclusive(1, 1000);
     const endpoint= `https://pokeapi.co/api/v2/pokemon/${random}`;
     fetch(endpoint)
-    .then((res)=> {
-      //console.log(res);
+    .then((res)=> {     
       if (res.ok === true) {
         res.json()
-         .then((data)=>{
-            //console.log(data);
+         .then((data)=>{            
             setPokemon(data);
             setLoading(false);
          })

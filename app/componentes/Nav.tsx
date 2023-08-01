@@ -1,5 +1,4 @@
 import Link from 'next/link';
-// Este es un import de un CSS clásico
 import './Nav.css';
 
 export default function Nav() {

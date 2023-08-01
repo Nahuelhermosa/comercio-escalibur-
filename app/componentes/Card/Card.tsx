@@ -1,9 +1,5 @@
-//import { useState } from "react";
-//import contador from "./contador"
 import './Card.css';
 
-
-// Define la interfaz para el tipo de datos de 'producto'
 interface Producto {
   imagen: string;
   titulo: string;
