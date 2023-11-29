@@ -13,7 +13,7 @@ export default function Contador () {
     }
     return (
         <div>
-            <p>Rifa: ${precio_unitario}</p>
+            <p>precio unitario: ${precio_unitario}</p>
             <div>
                 <button onClick={restar}>Restar -</button>
                 <p>{cantidad}</p>
