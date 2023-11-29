@@ -27,7 +27,7 @@ export default function Carrito () {
                     <input type="email" name='email' />
                 </label>
                
-                <Contador />
+                
                 <input type="hidden" name="form-name" value="contacto" />
                 <button type="submit">Enviar</button>
             </form> 
