@@ -6,7 +6,7 @@ export default function Servicios () {
             <h1 className="servicio-title">El calaboso del nerd</h1>
             <br />
                 <div className="servicio-contenedor">                    
-            <p>Bien venidos a Escalibur "el calaboso del nerd" somos una tienda que se centra en el diseño y venta de ropa para hombre, mujeres, niñas y niño, presentando un gran impacto visual, con ideas alternativas dedicado a la cultura pop, anime, manga y sus variantes.
+            <p>Bienvenidos a Escalibur "el calaboso del nerd" somos una tienda que se centra en el diseño y venta de ropa para hombre, mujeres, niñas y niño, presentando un gran impacto visual, con ideas alternativas dedicado a la cultura pop, anime, manga y sus variantes.
                  </p>
             <br />
             <div className="contenedor-imagenes">

@@ -1,8 +1,40 @@
 .footer {
-    background-color: var(--amarillo);
+    background-color: rgb(172, 170, 170);
     max-width: 100%;
-    margin: 0px auto;
-    
-    padding: 0px 0;
-    text-align: center;
-}
+    margin: 0 auto;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    text-align: left;
+  }
+  
+  .contacto {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .contacto:hover {
+    color: #fa3a00;
+  }
+  
+  .icono2 {
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+  }
+  

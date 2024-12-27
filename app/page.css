@@ -1,40 +1,41 @@
-.main {
-  }
-  
-  .principal {
-    width: 1300px;
-    overflow: hidden;
-    margin-bottom: 5px;
-  }
-  
-  .imagen-container {
-    
-    max-width: 30%;
-    height: auto; 
-    display: block; 
-    margin: 15px 15px 0px 30px; 
-    float: left;
-    
-  }
-  
-  .pokemon-container-row {
-    display: flex;
-    margin-bottom: 30px; 
-  }
-  
-  .pokemon-container-row > * {
-    flex: 1; 
-    margin: 5px; 
-  }
-  
- 
+.principal {
+  display: flex;
+  flex-wrap: nowrap; /* Evitar que los elementos se apilen */
+  justify-content: flex-start; /* Alineación horizontal a la izquierda */
+  align-items: center; /* Centrar verticalmente */
+  max-width: 1200px;
+  width: 100%;
+  gap: 20px;
+}
 
-  
-  .info {
-    color: var(--amarillo);
-    text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
-    font-size: 33px;
-    font-weight: bold;
-    margin-top: 25px;
-    
-  }
+.pokemon-container-row {
+  display: flex;
+  flex-direction: row; /* Asegurar que estén en fila */
+  width: 100%;
+}
+
+.imagen-container {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start; /* Imagen siempre a la izquierda */
+  align-items: center;
+}
+
+.imagen-container img {
+  width: 190px; /* Ajusta el tamaño según necesites */
+  height: auto; /* Mantener proporción */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombras */
+}
+
+.info {
+  flex: 2; /* Ocupa más espacio que la imagen */
+  color: var(--blanco);
+  text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
+  font-size: 41px;
+  font-weight: bold;
+  text-align: justify;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}

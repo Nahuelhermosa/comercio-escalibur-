@@ -5,14 +5,17 @@
 
 .servicio-title {
   text-align: center;
-  color: var(--amarillo);
+  color: var(--blanco);
   text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
-  font-size: 30px;
+  font-size: 70px;
   font-weight: bold;
 }
 
 .servicio-contenedor p {
   font-size: 25px;
+  color: var(--blanco);
+  text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
+  font-size: 35px;
 }
 
 .imagen-servicio {

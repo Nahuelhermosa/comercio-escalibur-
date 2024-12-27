@@ -13,11 +13,12 @@
 }
 
 body {
-  background: var(--blanco)
-  
+  background-image: url('/remeras.jpg.jpg'); /* Referencia correcta a la imagen */
+  background-size: cover; /* Ajusta la imagen para que cubra todo el fondo */
+  background-position: center; /* Centra la imagen */
+  background-repeat: no-repeat; /* Evita que la imagen se repita */
 }
 
 .contenedor {
-  
   margin: 5px 0px 0px 0px;
 }

@@ -2,12 +2,13 @@
     max-width: 1200px;
     align-items: center;
     
+    
 }
 .titulowrapper {
     text-align: center;
-    color: var(--amarillo);
+    color: var(--blanco);
     text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bold;
     
 }
@@ -17,9 +18,9 @@
     gap: 12px;
 }
 .filtro{
-    color: var(--amarillo);
+    color: var(--blanco);
     text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
-    font-size: 30px;
+    font-size: 50px;
     font-weight: bold;
     margin-top: 35px;
     

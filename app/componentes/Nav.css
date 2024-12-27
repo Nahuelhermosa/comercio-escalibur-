@@ -13,20 +13,22 @@
   list-style: none;
   text-align: justify;
   font-size: 100%;
-  background-color: var(--amarillo);
+  
 }
 
 .nav-item {
-  background-color: var(--amarillo);
+  
   flex-grow: 1;
   padding: 5px 0px 5px 0px;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .nav-item a {
   text-decoration: none;
-  color: #333;
+  color: rgb(64, 200, 224);
+  text-shadow: -1px -1px 0 #050505, 1px -1px 0 #070707, -1px 1px 0 #070707, 1px 1px 0 #030303;
+  font-size: 35px;
 }
 
 .nav-item a:hover {
