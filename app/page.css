@@ -39,3 +39,22 @@
   margin-bottom: 30px;
   margin-top: 30px;
 }
+@media (max-width: 768px) {
+  .principal {
+    flex-direction: column; /* Apilar elementos en móviles */
+    align-items: center; /* Centrar los elementos */
+  }
+
+  .pokemon-container-row {
+    flex-direction: column; /* Apilar contenido */
+  }
+
+  .imagen-container img {
+    max-width: 150px; /* Reducir tamaño de la imagen en móviles */
+  }
+
+  .info {
+    font-size: 1rem; /* Reducir texto para mejor lectura en pantallas pequeñas */
+    text-align: center; /* Centrar el texto */
+  }
+}

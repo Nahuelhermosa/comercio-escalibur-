@@ -1,5 +1,5 @@
 .footer {
-    background-color: rgb(172, 170, 170);
+    background-color: rgb(13, 138, 240);
     max-width: 100%;
     margin: 0 auto;
     padding: 10px 10px;
@@ -14,7 +14,7 @@
   .footer p {
     margin: 0;
     font-size: 1rem;
-    color: #333;
+    color: #f7f6f6;
     text-align: left;
   }
   
@@ -23,7 +23,7 @@
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
-    color: #333;
+    color: #f8f4f4;
     text-decoration: none;
     transition: color 0.3s ease;
   }

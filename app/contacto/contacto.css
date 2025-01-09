@@ -1,4 +1,4 @@
-.contacto {
+.contactos {
   max-width: 800px;
   margin: 40px auto;
   padding: 30px;
@@ -83,4 +83,48 @@
 .formulario input[type="submit"]:active {
   background-color: #d92c00;
   transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .contactos {
+    padding: 20px;
+  }
+
+  .contactos h2 {
+    font-size: 1.8rem;
+  }
+
+  .formulario label {
+    font-size: 1rem;
+  }
+
+  .formulario input[type="submit"] {
+    width: 60%; /* Mayor tamaño en pantallas pequeñas */
+  }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 480px) {
+  .contactos {
+    padding: 15px;
+  }
+
+  .contactos h2 {
+    font-size: 1.5rem;
+  }
+
+  .formulario label {
+    font-size: 0.9rem;
+  }
+
+  .formulario input,
+  .formulario textarea {
+    padding: 10px 14px; /* Reducir padding */
+    font-size: 0.9rem;
+  }
+
+  .formulario input[type="submit"] {
+    width: 70%;
+    font-size: 0.9rem;
+  }
 }

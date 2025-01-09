@@ -8,8 +8,10 @@ import Footer from './componentes/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'sitio excalibur',
+  title: 'Escalibur',
   description: 'trabajo final',
+  icons: 'icono-estrella.png',
+  
 }
 
 export default function RootLayout({
