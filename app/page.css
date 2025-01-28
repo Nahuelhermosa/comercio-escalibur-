@@ -32,7 +32,7 @@
   flex: 2; /* Ocupa más espacio que la imagen */
   color: var(--blanco);
   text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
-  font-size: 41px;
+  font-size: 40px;
   font-weight: bold;
   text-align: justify;
   line-height: 1.2;
