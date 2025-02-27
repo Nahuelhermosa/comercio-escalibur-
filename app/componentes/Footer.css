@@ -1,8 +1,8 @@
 .footer {
-    background-color: rgb(13, 138, 240);
+    background-color: rgb(203, 210, 216);
     max-width: 100%;
     margin: 0 auto;
-    padding: 10px 10px;
+    padding: 5px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,7 +14,7 @@
   .footer p {
     margin: 0;
     font-size: 1rem;
-    color: #f7f6f6;
+    color: #0a0a0a;
     text-align: left;
   }
   
@@ -23,7 +23,7 @@
     align-items: center;
     font-size: 1rem;
     font-weight: bold;
-    color: #f8f4f4;
+    color: #0a0a0a;
     text-decoration: none;
     transition: color 0.3s ease;
   }

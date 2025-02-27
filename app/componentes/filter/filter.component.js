@@ -16,12 +16,11 @@ export default function Filter() {
   return (
     <form onSubmit={handleFilter}>
       <input
-        type="search"
-        placeholder="Buscar por categoría..."
+        placeholder="Nuestro Stock..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <button type="submit">Search</button>
+      <button type="submit">Buscar</button>
     </form>
   );
 }
