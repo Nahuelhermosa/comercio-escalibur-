@@ -1,13 +1,13 @@
 .footer {
-    background-color: rgb(203, 210, 216);
+    background-color: rgb(171, 210, 241);
     max-width: 100%;
     margin: 0 auto;
-    padding: 5px 5px;
+    padding: 10px 5px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Roboto', sans-serif;
-    color: #333;
+    color: #333333;
     box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
   }
   
