@@ -11,9 +11,9 @@ export default function Nav() {
             <img src="icono-estrella2.png" alt="inicio" />
           </Link>
         </li>
-        <li className="nav-item">
+        {/* <li className="nav-item">
           <Link href="/servicio">Escalibur</Link>
-        </li>
+        </li> */}
         <li className="nav-item">
           <Link href="/Indumentaria">Merchandise</Link>
         </li>

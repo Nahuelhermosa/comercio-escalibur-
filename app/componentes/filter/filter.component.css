@@ -1,0 +1,43 @@
+.filter-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    width: 100%;
+    max-width: 800px;
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .filter-input {
+    flex: 1;
+    font-size: 22px; /* Más grande */
+    padding: 10px 100px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    width: 100%;
+    transition: border 0.3s ease;
+  }
+  
+  .filter-input:focus {
+    border-color: #007bff;
+  }
+  
+  .filter-button {
+    font-size: 22px; /* Más grande */
+    padding: 14px 24px;
+    border: none;
+    background: #007bff;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .filter-button:hover {
+    background: #0056b3;
+  }
+  

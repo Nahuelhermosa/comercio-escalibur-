@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
-import { useRouter } from "next/navigation"; // Importamos useRouter para manejar la navegación
+import { useRouter } from "next/navigation"; 
+import "./filter.component.css"; // Importamos el CSS
 
 export default function Filter() {
   const [search, setSearch] = useState("");
@@ -14,13 +15,14 @@ export default function Filter() {
   };
 
   return (
-    <form onSubmit={handleFilter}>
+    <form className="filter-form" onSubmit={handleFilter}>
       <input
+        className="filter-input"
         placeholder="Nuestro Stock..."
         value={search}
         onChange={(e) => setSearch(e.target.value)}
       />
-      <button type="submit">Buscar</button>
+      <button className="filter-button" type="submit">Buscar</button>
     </form>
   );
 }
