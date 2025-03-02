@@ -22,7 +22,7 @@
   text-decoration: none;
   color: rgb(169, 211, 216);
   text-shadow: -1px -1px 0 #050505, 1px -1px 0 #070707, -1px 1px 0 #070707, 1px 1px 0 #030303;
-  font-size: 45px;
+  font-size: 30px;
 }
 
 .nav-item a:hover {
