@@ -87,7 +87,9 @@
 
 @media (max-width: 768px) {
   .contactos {
-    padding: 20px;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 30px;
   }
 
   .contactos h2 {
@@ -106,6 +108,8 @@
 /* Pantallas pequeñas (móviles) */
 @media (max-width: 480px) {
   .contactos {
+    max-width: 500px;
+  margin: 40px auto;
     padding: 15px;
   }
 

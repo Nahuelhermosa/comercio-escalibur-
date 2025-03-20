@@ -105,10 +105,12 @@
   .servicio-contenedor p {
     font-size: 1.2rem; /* Texto más compacto */
     line-height: 1.5; /* Legibilidad en pantallas pequeñas */
+    text-align: center;
   }
 
   .imagen-servicio {
     max-width: 90%; /* Reducir tamaño en móviles */
+    margin-left: 1rem;
   }
 }
 

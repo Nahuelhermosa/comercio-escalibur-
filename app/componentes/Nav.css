@@ -31,28 +31,29 @@
 
 
 .nav-item img {
-  max-width: 100px; 
+  max-width: 150px; 
   height: auto; 
 }
 
 @media (max-width: 768px) {
   .nav-lista {
-    justify-content: center; /* Centrar los elementos en móviles */
-    flex-wrap: wrap; /* Permitir que los elementos se apilen */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    align-items: center;
   }
 
   .nav-item {
     flex-grow: unset; /* Desactivar el crecimiento en móviles */
     padding: 10px; /* Más espacio entre los elementos */
-    font-size: 25px; /* Reducir el tamaño */
+    font-size: 50px; /* Reducir el tamaño */
   }
 
   .nav-item a {
-    font-size: 1rem; /* Tamaño del texto reducido */
+    font-size: 3rem; /* Tamaño del texto reducido */
   }
 
   .nav-item img {
-    max-width: 80px; /* Imagen más pequeña en móviles */
+    max-width: 150px; /* Imagen más pequeña en móviles */
+    height: auto; 
   }
 }
 

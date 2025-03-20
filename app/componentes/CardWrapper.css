@@ -1,27 +1,61 @@
 .wrapper {
     max-width: 1200px;
-    align-items: center;
-    
-    
+    margin: 0 auto;
+    padding: 16px;
 }
+
 .titulowrapper {
     text-align: center;
     color: var(--blanco);
     text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
     font-size: 50px;
     font-weight: bold;
-    
 }
+
 .grilla {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 12px;
 }
-.filtro{
+
+.filtro {
     color: var(--blanco);
     text-shadow: -2px -2px 0 #050505, 2px -2px 0 #070707, -2px 2px 0 #070707, 2px 2px 0 #030303;
     font-size: 50px;
     font-weight: bold;
     margin-top: 35px;
-    
+}
+
+/* 🔥 Mobile First - Ajustes para pantallas pequeñas */
+@media (max-width: 768px) {
+    .titulowrapper {
+        font-size: 32px;
+    }
+
+    .filtro {
+        font-size: 32px;
+        margin-top: 20px;
+    }
+
+    .grilla {
+        grid-template-columns: repeat(2, 1fr); /* 2 columnas en mobile */
+        gap: 8px;
+    }
+}
+
+/* 🔥 Ajustes más extremos para pantallas muy pequeñas */
+@media (max-width: 480px) {
+    .titulowrapper {
+        font-size: 26px;
+    }
+
+    .filtro {
+        font-size: 26px;
+        margin-top: 16px;
+    }
+
+    .grilla {
+        grid-template-columns: 1fr; /* Una columna en pantallas muy chicas */
+        gap: 8px;
+    }
 }
