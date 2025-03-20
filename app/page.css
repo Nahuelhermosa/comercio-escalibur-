@@ -127,5 +127,6 @@
 
   .imagen-servicio {
     max-width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    justify-content: center;
   }
 }
