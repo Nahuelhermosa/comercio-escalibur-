@@ -23,6 +23,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/componentes/Card/Card.jsx", "app/componentes/Head.jsx", "app/componentes/filter/filter.component.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "app/componentes/Card/Card.tsx", "app/componentes/Head.jsx", "app/componentes/filter/filter.component.js"],
   "exclude": ["node_modules"]
 }
