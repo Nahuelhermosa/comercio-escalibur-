@@ -2,8 +2,8 @@
 
 .nav {
   max-width: 100%;
-  margin: 0 auto;
-  padding-bottom: 10px;
+  margin: 1rem auto;
+  padding-bottom: 2px;
 }
 
 .nav-lista {
@@ -20,9 +20,9 @@
 
 .nav-item a {
   text-decoration: none;
-  color: rgb(169, 211, 216);
+  color: rgb(55, 199, 235);
   text-shadow: -1px -1px 0 #050505, 1px -1px 0 #070707, -1px 1px 0 #070707, 1px 1px 0 #030303;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .nav-item a:hover {

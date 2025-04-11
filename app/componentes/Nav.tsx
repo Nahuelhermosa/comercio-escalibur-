@@ -8,27 +8,28 @@ export default function Nav() {
       <ul className="nav-lista">
         <li className="nav-item">
           <Link href="/">
-            <img src="/icono-estrella2.png" alt="inicio" />
+            <img src="/iconoestrella1.png" alt="inicio" />
           </Link>
         </li>
 
+<li className="nav-item">
+          <Filter />
+        </li>
         <li className="nav-item">
-          <Link href="/Indumentaria">Merchandise</Link>
+          <Link href="/Indumentaria">CATEGORIAS</Link>
         </li>
 
         <li className="nav-item">
-          <Link href="/contacto">Contact</Link>
+          <Link href="/contacto">CONTACTO</Link>
         </li>
 
         <li className="nav-item">
           <Link href="/Cart">
-            <img src="/carrito3.png" alt="Carrito" width={60} />
+            <img src="/icons8-cart6.png" alt="Carrito" width={60} />
           </Link>
         </li>
 
-        <li className="nav-item">
-          <Filter />
-        </li>
+        
       </ul>
     </nav>
   );
