@@ -4,6 +4,7 @@ export const getDerivedCart = (cart: any[]) => {
     const derivedCart: {
       id: any;
       titulo: string; // ✅ Usamos string en vez de ReactNode
+      precio: number; // 👈 Agregamos el precio
       quantity: number;
     }[] = [];
 
@@ -15,6 +16,7 @@ export const getDerivedCart = (cart: any[]) => {
         derivedCart.push({
           id: item.id,
           titulo: item.titulo, // ✅ Ahora la propiedad se llama 'titulo'
+          precio: item.precio, // 👈 Asegurate que `item` lo tenga
           quantity: 1,
         });
       }

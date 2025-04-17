@@ -6,10 +6,10 @@
   flex-direction: column;
   align-items: center;
   font-size: 2.5rem;
-  color: var(--celeste);
+  color: var(--blanco);
   text-shadow: -1px 1px 0 #050505, 1px -1px 0 #070707, -1px 1px 0 #070707, 1px 1px 0 #030303;
   text-shadow: 0 8px 8px rgba(0, 0, 0, 0.3);
-  background-image: url('/pexels-foto4.jpg');
+  background-image: url('/pexels-foto3.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -29,7 +29,7 @@
 .cart-card {
   display: flex;
   align-items: center;
-  background-color: #f9f9f9;
+  background-color: #3c61d1;
   border: 1px solid #e2e2e2;
   padding: 15px;
   border-radius: 12px;
